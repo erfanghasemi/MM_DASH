@@ -1,0 +1,15 @@
+version: "3"
+services:
+  flask:
+    build:
+      context: .
+      dockerfile: Dockerfile_backend
+    container_name: flask
+    ports:
+      - "8000:8000"
+  nginx:
+    build: 
+      context: .
+      dockerfile: Dockerfile_nginx
+    ports:
+      - "3000:3000"
