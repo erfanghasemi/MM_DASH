@@ -6,3 +6,6 @@ Jinja2==3.1.2
 MarkupSafe==2.1.1
 Werkzeug==2.1.2
 zipp==3.8.0
+sqlalchemy
+PyJWT
+python-ffmpeg-video-streaming>=0.1
