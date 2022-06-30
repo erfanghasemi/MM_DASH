@@ -23,7 +23,7 @@ def get_movies(movie_id):
 
 
 @views.route('api/movies', methods=['GET'], defaults={'movie_id': None})
-@views.route('api/movie/<movie_id>', methods=['GET'])
+@views.route('api/movies/<movie_id>', methods=['GET'])
 def get_movies_api(movie_id):
 
     def row_to_dict(row):
