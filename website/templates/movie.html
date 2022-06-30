@@ -33,7 +33,7 @@
   <div class="w3-row-padding w3-padding-16" id="movies">
     <div class="w3-half w3-center">
       <img src="{{ movie.poster_url }}" alt="..." style="width:100%;">
-      <h3><?php echo $movie['name'] ?></h3>
+      <h3>{{ movie.title }}</h3>
       <p>Director: {{ movie.director }}</p>
     </div>
     <div class="w3-half">
